@@ -23,7 +23,7 @@ export default function Footer() {
                         <div className='col' style={{ width: '50%' }}>
                             <p className='heading'>Be the first to know</p>
                             <p className='footer-text'>Sign up for updates from mettā muse.</p>
-                            <div className='form-text'><input type='text' placeholder='Enter your e-mail...' /> <button>Subscribe</button></div>
+                            <div className='form-text'><input className='email-input' type='text' placeholder='Enter your e-mail...' /> <button>Subscribe</button></div>
                         </div>
                         <div className='col' style={{ width: '50%' }} >
                             <p className='heading conatct'>CONTACT US</p>

@@ -106,7 +106,7 @@ export default function HomeScreen() {
                         <div className="col filters" style={{ width: !showFilter ? "25%" : "0%", borderRight: !showFilter ? '1px solid #E5E5E5' : 'none' }}>
                             <div style={{ padding: '10px' }}>
                                 <div className="filter-sidebar">
-                                    <h2 style={{fontSize:'18px'}} className="checkbox">
+                                    <h2 style={{fontSize:'18px',display:'inline-flex'}} className="checkbox">
                                         <input type="checkbox" />
                                         CUSTOMIZBLE
                                     </h2>

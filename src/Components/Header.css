@@ -1,0 +1,112 @@
+header {
+    border-bottom: 1px solid #e8e6e1;
+    background: #fafaf8;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 20px 0 ;
+}
+
+.contionar {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-content {
+    display: flex;
+    align-Items: center;
+    justify-Content: space-between;
+    padding-bottom: 20px;
+}
+
+.logo-content .col{
+    width: 33.3%;
+    text-align: left;
+}
+
+p.logo-text {
+    font-Family: "Inter";
+    font-Size: 36px;
+    font-Weight: 800;
+    letter-Spacing: 1px;
+    color: #000000;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    cursor: pointer;
+}
+.icons p{
+     font-family: 'Simplon Norm';
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #252020;
+    margin-bottom: 0px;
+}
+.nav{
+    transition: all 0.3s ease;
+}
+.nav a {
+    font-Family: "Simplon Norm";
+    font-Size: 20px;
+    font-Weight: 700;
+    letter-Spacing: 1px;
+    color: #252020;
+    text-align: center;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+@media (max-width:1024px) {
+    .contionar {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:767px){
+.hide-mobile,.nav{
+    display: none;
+}
+.siteLogo{
+    gap:10px;
+    display: flex;
+    align-items: center;
+}
+.siteLogo i,.nav.show{
+    display: block !important;
+}
+.p.logo-text{
+    margin: 0px !important;
+}
+.logo-content{
+    padding-bottom: 0;
+}
+
+.nav{
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    margin-top: 30px;
+    border-top:2px solid #e8e6e1;
+    padding-top: 10px;
+  }
+
+  .nav a{
+    display:block;
+    width:100%;
+    text-align:start;
+    margin: 0 0 10px 0 !important;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+}

@@ -15,7 +15,7 @@ const Products = ({ data }) => {
                         <img src={item.image} alt={item.title} />
                     </div>
                     <div className="product-info">
-                        <h4>{item.title}</h4>
+                        <h3>{item.title}</h3>
                         <p className="category">{item.category}</p>
                         <p className="price">${item.price}</p>
                         <p className="rating">⭐ {item.rating.rate}</p>
@@ -106,13 +106,11 @@ export default function HomeScreen() {
                         <div className="col filters" style={{ width: !showFilter ? "25%" : "0%", borderRight: !showFilter ? '1px solid #E5E5E5' : 'none' }}>
                             <div style={{ padding: '10px' }}>
                                 <div className="filter-sidebar">
-                                    <label className="checkbox">
+                                    <h2 style={{fontSize:'18px'}} className="checkbox">
                                         <input type="checkbox" />
                                         CUSTOMIZBLE
-                                    </label>
-
+                                    </h2>
                                     <hr />
-
                                     <div className="filter-section">
                                         <div
                                             className="filter-title"
@@ -145,7 +143,7 @@ export default function HomeScreen() {
                                     <hr />
                                     <div className="filter-section">
                                         <div className="filter-title">
-                                            OCCASION
+                                            Work
                                             <span className={`fa ${idealOpen ? 'fa-angle-up' : 'fa-angle-down'}`} />
                                         </div>
                                         <p className="all">All</p>
@@ -161,7 +159,7 @@ export default function HomeScreen() {
                                     <hr />
                                     <div className="filter-section">
                                         <div className="filter-title">
-                                            OCCASION
+                                            fabric
                                             <span className={`fa ${idealOpen ? 'fa-angle-up' : 'fa-angle-down'}`} />
                                         </div>
                                         <p className="all">All</p>
@@ -169,7 +167,7 @@ export default function HomeScreen() {
                                     <hr />
                                     <div className="filter-section">
                                         <div className="filter-title">
-                                            OCCASION
+                                            segment
                                             <span className={`fa ${idealOpen ? 'fa-angle-up' : 'fa-angle-down'}`} />
                                         </div>
                                         <p className="all">All</p>
@@ -177,7 +175,7 @@ export default function HomeScreen() {
                                     <hr />
                                     <div className="filter-section">
                                         <div className="filter-title">
-                                            OCCASION
+                                            suitable for
                                             <span className={`fa ${idealOpen ? 'fa-angle-up' : 'fa-angle-down'}`} />
                                         </div>
                                         <p className="all">All</p>
@@ -185,7 +183,7 @@ export default function HomeScreen() {
                                     <hr />
                                     <div className="filter-section">
                                         <div className="filter-title">
-                                            OCCASION
+                                            raw materials
                                             <span className={`fa ${idealOpen ? 'fa-angle-up' : 'fa-angle-down'}`} />
                                         </div>
                                         <p className="all">All</p>
@@ -193,7 +191,7 @@ export default function HomeScreen() {
                                     <hr />
                                     <div className="filter-section">
                                         <div className="filter-title">
-                                            OCCASION
+                                            Pattern
                                             <span className={`fa ${idealOpen ? 'fa-angle-up' : 'fa-angle-down'}`} />
                                         </div>
                                         <p className="all">All</p>
